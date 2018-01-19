@@ -57,6 +57,7 @@ public class JavaPdf {
 			table1.addCell(new Paragraph(""));
 			table1.addCell(new Paragraph("APPLICATION ATTRIBUTE SCANNER", font1));
 			document.add(table1);
+			System.out.println("Hi PDF");
 			document.add(new Paragraph(
 					"", font2));
 			// Creating Table2
